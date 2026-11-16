@@ -1,0 +1,4035 @@
+{
+ "_note": "ALL DATA IN THIS FILE IS FICTIONAL, created for a college software demo. It is not real timetable or fare information.",
+ "trips": [
+  {
+   "from": "Nanded",
+   "to": "Prayagraj"
+  },
+  {
+   "from": "Pune",
+   "to": "Delhi"
+  },
+  {
+   "from": "Mumbai",
+   "to": "Kolkata"
+  },
+  {
+   "from": "Hyderabad",
+   "to": "Lucknow"
+  },
+  {
+   "from": "Bengaluru",
+   "to": "Pune"
+  },
+  {
+   "from": "Mumbai",
+   "to": "Jaipur"
+  },
+  {
+   "from": "Pune",
+   "to": "Hyderabad"
+  },
+  {
+   "from": "Nagpur",
+   "to": "Delhi"
+  },
+  {
+   "from": "Nanded",
+   "to": "Mumbai"
+  },
+  {
+   "from": "Kolkata",
+   "to": "Delhi"
+  }
+ ],
+ "legs": [
+  {
+   "id": "B001",
+   "mode": "BUS",
+   "operator": "Marathwada Link",
+   "name": "ML-201",
+   "category": "Seater AC",
+   "from": "Nanded",
+   "to": "Nagpur",
+   "departure": "06:00",
+   "durationMin": 390,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 389
+  },
+  {
+   "id": "B002",
+   "mode": "BUS",
+   "operator": "Orange City Travels",
+   "name": "OC-118",
+   "category": "Sleeper AC",
+   "from": "Nanded",
+   "to": "Nagpur",
+   "departure": "09:30",
+   "durationMin": 390,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 389
+  },
+  {
+   "id": "B003",
+   "mode": "BUS",
+   "operator": "Maha Express",
+   "name": "MX-305",
+   "category": "Semi-sleeper",
+   "from": "Nanded",
+   "to": "Nagpur",
+   "departure": "14:00",
+   "durationMin": 390,
+   "fare": 580,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 389
+  },
+  {
+   "id": "B004",
+   "mode": "BUS",
+   "operator": "Ganga Yamuna Coaches",
+   "name": "GY-410",
+   "category": "Sleeper AC",
+   "from": "Nagpur",
+   "to": "Prayagraj",
+   "departure": "16:00",
+   "durationMin": 720,
+   "fare": 1100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 746
+  },
+  {
+   "id": "B005",
+   "mode": "BUS",
+   "operator": "Orange City Travels",
+   "name": "OC-520",
+   "category": "Volvo Sleeper",
+   "from": "Nagpur",
+   "to": "Prayagraj",
+   "departure": "20:00",
+   "durationMin": 720,
+   "fare": 1250,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 746
+  },
+  {
+   "id": "B006",
+   "mode": "BUS",
+   "operator": "Telangana Star",
+   "name": "TS-77",
+   "category": "Seater AC",
+   "from": "Nanded",
+   "to": "Hyderabad",
+   "departure": "07:00",
+   "durationMin": 300,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 313
+  },
+  {
+   "id": "B007",
+   "mode": "BUS",
+   "operator": "Maha Express",
+   "name": "MX-120",
+   "category": "Semi-sleeper",
+   "from": "Nanded",
+   "to": "Hyderabad",
+   "departure": "13:00",
+   "durationMin": 300,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 313
+  },
+  {
+   "id": "B008",
+   "mode": "BUS",
+   "operator": "Godavari Sleeper",
+   "name": "GS-909",
+   "category": "Sleeper AC",
+   "from": "Nanded",
+   "to": "Hyderabad",
+   "departure": "22:00",
+   "durationMin": 300,
+   "fare": 620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 313
+  },
+  {
+   "id": "B009",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways",
+   "name": "SR-64",
+   "category": "Sleeper AC",
+   "from": "Nanded",
+   "to": "Pune",
+   "departure": "19:00",
+   "durationMin": 540,
+   "fare": 800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 500
+  },
+  {
+   "id": "B010",
+   "mode": "BUS",
+   "operator": "Orange City Travels",
+   "name": "OC-244",
+   "category": "Volvo Sleeper",
+   "from": "Nanded",
+   "to": "Pune",
+   "departure": "21:30",
+   "durationMin": 540,
+   "fare": 900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 500
+  },
+  {
+   "id": "B011",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways",
+   "name": "SR-11",
+   "category": "Seater AC",
+   "from": "Pune",
+   "to": "Mumbai",
+   "departure": "06:30",
+   "durationMin": 210,
+   "fare": 400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "B012",
+   "mode": "BUS",
+   "operator": "Maha Express",
+   "name": "MX-402",
+   "category": "Volvo AC",
+   "from": "Pune",
+   "to": "Mumbai",
+   "departure": "10:00",
+   "durationMin": 210,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "B013",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways",
+   "name": "SR-15",
+   "category": "Seater AC",
+   "from": "Pune",
+   "to": "Mumbai",
+   "departure": "15:30",
+   "durationMin": 210,
+   "fare": 420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "B014",
+   "mode": "BUS",
+   "operator": "Orange City Travels",
+   "name": "OC-90",
+   "category": "Volvo AC",
+   "from": "Pune",
+   "to": "Mumbai",
+   "departure": "19:00",
+   "durationMin": 210,
+   "fare": 480,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "B015",
+   "mode": "BUS",
+   "operator": "Telangana Star",
+   "name": "TS-310",
+   "category": "Sleeper AC",
+   "from": "Hyderabad",
+   "to": "Nagpur",
+   "departure": "20:00",
+   "durationMin": 540,
+   "fare": 900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "B016",
+   "mode": "BUS",
+   "operator": "Godavari Sleeper",
+   "name": "GS-444",
+   "category": "Volvo Sleeper",
+   "from": "Hyderabad",
+   "to": "Nagpur",
+   "departure": "22:00",
+   "durationMin": 540,
+   "fare": 1000,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "B017",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches",
+   "name": "DL-21",
+   "category": "Volvo AC",
+   "from": "Delhi",
+   "to": "Jaipur",
+   "departure": "07:00",
+   "durationMin": 300,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 320
+  },
+  {
+   "id": "B018",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches",
+   "name": "DL-35",
+   "category": "Volvo AC",
+   "from": "Delhi",
+   "to": "Jaipur",
+   "departure": "12:30",
+   "durationMin": 300,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 320
+  },
+  {
+   "id": "B019",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches",
+   "name": "DL-48",
+   "category": "Sleeper AC",
+   "from": "Delhi",
+   "to": "Jaipur",
+   "departure": "18:00",
+   "durationMin": 300,
+   "fare": 550,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 320
+  },
+  {
+   "id": "B020",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches",
+   "name": "DL-208",
+   "category": "Sleeper AC",
+   "from": "Ahmedabad",
+   "to": "Jaipur",
+   "departure": "19:30",
+   "durationMin": 660,
+   "fare": 900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 729
+  },
+  {
+   "id": "B021",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches",
+   "name": "DL-215",
+   "category": "Volvo Sleeper",
+   "from": "Ahmedabad",
+   "to": "Jaipur",
+   "departure": "21:00",
+   "durationMin": 660,
+   "fare": 1000,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 729
+  },
+  {
+   "id": "B022",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways",
+   "name": "SR-701",
+   "category": "Sleeper AC",
+   "from": "Bengaluru",
+   "to": "Pune",
+   "departure": "18:00",
+   "durationMin": 840,
+   "fare": 1300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 992
+  },
+  {
+   "id": "B023",
+   "mode": "BUS",
+   "operator": "Orange City Travels",
+   "name": "OC-777",
+   "category": "Volvo Sleeper",
+   "from": "Bengaluru",
+   "to": "Pune",
+   "departure": "19:30",
+   "durationMin": 840,
+   "fare": 1450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 992
+  },
+  {
+   "id": "B024",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways",
+   "name": "SR-330",
+   "category": "Semi-sleeper",
+   "from": "Hubballi",
+   "to": "Pune",
+   "departure": "21:00",
+   "durationMin": 480,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "B025",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways",
+   "name": "SR-334",
+   "category": "Sleeper AC",
+   "from": "Hubballi",
+   "to": "Pune",
+   "departure": "22:30",
+   "durationMin": 480,
+   "fare": 750,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "B026",
+   "mode": "BUS",
+   "operator": "Telangana Star",
+   "name": "TS-12",
+   "category": "Seater AC",
+   "from": "Solapur",
+   "to": "Hyderabad",
+   "departure": "08:00",
+   "durationMin": 300,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 371
+  },
+  {
+   "id": "B027",
+   "mode": "BUS",
+   "operator": "Telangana Star",
+   "name": "TS-18",
+   "category": "Seater AC",
+   "from": "Solapur",
+   "to": "Hyderabad",
+   "departure": "14:00",
+   "durationMin": 300,
+   "fare": 480,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 371
+  },
+  {
+   "id": "B028",
+   "mode": "BUS",
+   "operator": "Godavari Sleeper",
+   "name": "GS-130",
+   "category": "Sleeper AC",
+   "from": "Solapur",
+   "to": "Hyderabad",
+   "departure": "20:00",
+   "durationMin": 300,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 371
+  },
+  {
+   "id": "T001",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nanded-Prayagraj Weekend Special 91021",
+   "category": "Sleeper / 3A",
+   "from": "Nanded",
+   "to": "Prayagraj",
+   "departure": "18:30",
+   "durationMin": 1200,
+   "fare": 1350,
+   "days": [
+    "SAT",
+    "SUN"
+   ],
+   "distanceKm": 1131
+  },
+  {
+   "id": "T002",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Manmad Passenger 51401",
+   "category": "2S / Sleeper",
+   "from": "Nanded",
+   "to": "Manmad",
+   "departure": "05:45",
+   "durationMin": 330,
+   "fare": 260,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 438
+  },
+  {
+   "id": "T003",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Manmad Express 71402",
+   "category": "Sleeper / 3A",
+   "from": "Nanded",
+   "to": "Manmad",
+   "departure": "15:20",
+   "durationMin": 330,
+   "fare": 300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 438
+  },
+  {
+   "id": "T004",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Ganga Link Express 82011",
+   "category": "Sleeper / 3A",
+   "from": "Manmad",
+   "to": "Prayagraj",
+   "departure": "21:00",
+   "durationMin": 1020,
+   "fare": 850,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1286
+  },
+  {
+   "id": "T005",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Ganga Link Passenger 82015",
+   "category": "Sleeper",
+   "from": "Manmad",
+   "to": "Prayagraj",
+   "departure": "04:30",
+   "durationMin": 1020,
+   "fare": 800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1286
+  },
+  {
+   "id": "T006",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Manmad-Mumbai Express 61201",
+   "category": "CC / 2S",
+   "from": "Manmad",
+   "to": "Mumbai",
+   "departure": "06:15",
+   "durationMin": 270,
+   "fare": 250,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 281
+  },
+  {
+   "id": "T007",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Godavari Link 61207",
+   "category": "CC / Sleeper",
+   "from": "Manmad",
+   "to": "Mumbai",
+   "departure": "13:40",
+   "durationMin": 270,
+   "fare": 280,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 281
+  },
+  {
+   "id": "T008",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Panchavati Link 61213",
+   "category": "CC",
+   "from": "Manmad",
+   "to": "Mumbai",
+   "departure": "17:00",
+   "durationMin": 270,
+   "fare": 300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 281
+  },
+  {
+   "id": "T009",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nanded-Mumbai Night Express 61105",
+   "category": "Sleeper / 3A",
+   "from": "Nanded",
+   "to": "Mumbai",
+   "departure": "20:00",
+   "durationMin": 660,
+   "fare": 480,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 629
+  },
+  {
+   "id": "T010",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Delhi Duronto Link 73110",
+   "category": "3A / 2A",
+   "from": "Pune",
+   "to": "Delhi",
+   "departure": "16:00",
+   "durationMin": 1320,
+   "fare": 2300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1591
+  },
+  {
+   "id": "T011",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Bhopal Central Link 51207",
+   "category": "Sleeper / 3A",
+   "from": "Pune",
+   "to": "Bhopal",
+   "departure": "17:00",
+   "durationMin": 720,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 868
+  },
+  {
+   "id": "T012",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Bhopal Night Link 51211",
+   "category": "Sleeper",
+   "from": "Pune",
+   "to": "Bhopal",
+   "departure": "22:30",
+   "durationMin": 720,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 868
+  },
+  {
+   "id": "T013",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Bhopal-Delhi Intercity 62013",
+   "category": "CC",
+   "from": "Bhopal",
+   "to": "Delhi",
+   "departure": "08:00",
+   "durationMin": 480,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 817
+  },
+  {
+   "id": "T014",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Bhopal-Delhi Express 62017",
+   "category": "Sleeper / 3A",
+   "from": "Bhopal",
+   "to": "Delhi",
+   "departure": "14:30",
+   "durationMin": 480,
+   "fare": 600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 817
+  },
+  {
+   "id": "T015",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Bhopal-Delhi Night Mail 62021",
+   "category": "Sleeper",
+   "from": "Bhopal",
+   "to": "Delhi",
+   "departure": "23:00",
+   "durationMin": 480,
+   "fare": 550,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 817
+  },
+  {
+   "id": "T016",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Mumbai-Howrah Mail 81003",
+   "category": "Sleeper / 3A / 2A",
+   "from": "Mumbai",
+   "to": "Kolkata",
+   "departure": "06:00",
+   "durationMin": 1860,
+   "fare": 2400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 2232
+  },
+  {
+   "id": "T017",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Mumbai-Nagpur Express 81207",
+   "category": "Sleeper / 3A",
+   "from": "Mumbai",
+   "to": "Nagpur",
+   "departure": "18:00",
+   "durationMin": 840,
+   "fare": 800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 928
+  },
+  {
+   "id": "T018",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Vidarbha Link 81211",
+   "category": "Sleeper / 3A",
+   "from": "Mumbai",
+   "to": "Nagpur",
+   "departure": "21:30",
+   "durationMin": 840,
+   "fare": 850,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 928
+  },
+  {
+   "id": "T019",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Howrah Express 81305",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Kolkata",
+   "departure": "11:00",
+   "durationMin": 1020,
+   "fare": 750,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1308
+  },
+  {
+   "id": "T020",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Howrah Night Link 81309",
+   "category": "Sleeper",
+   "from": "Nagpur",
+   "to": "Kolkata",
+   "departure": "22:30",
+   "durationMin": 1020,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1308
+  },
+  {
+   "id": "T021",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Hyderabad-Nagpur Express 71601",
+   "category": "CC / Sleeper",
+   "from": "Hyderabad",
+   "to": "Nagpur",
+   "departure": "06:00",
+   "durationMin": 480,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "T022",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Hyderabad-Nagpur Passenger 71605",
+   "category": "Sleeper",
+   "from": "Hyderabad",
+   "to": "Nagpur",
+   "departure": "14:30",
+   "durationMin": 480,
+   "fare": 420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "T023",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Hyderabad-Nagpur Night Link 71609",
+   "category": "Sleeper / 3A",
+   "from": "Hyderabad",
+   "to": "Nagpur",
+   "departure": "21:00",
+   "durationMin": 480,
+   "fare": 480,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "T024",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Lucknow Express 82401",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Lucknow",
+   "departure": "17:15",
+   "durationMin": 960,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 892
+  },
+  {
+   "id": "T025",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Lucknow Night Link 82405",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Lucknow",
+   "departure": "23:20",
+   "durationMin": 960,
+   "fare": 750,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 892
+  },
+  {
+   "id": "T026",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Delhi-Lucknow Intercity 62101",
+   "category": "CC",
+   "from": "Delhi",
+   "to": "Lucknow",
+   "departure": "06:00",
+   "durationMin": 390,
+   "fare": 600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "T027",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Delhi-Lucknow Express 62105",
+   "category": "Sleeper / CC",
+   "from": "Delhi",
+   "to": "Lucknow",
+   "departure": "15:30",
+   "durationMin": 390,
+   "fare": 550,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "T028",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Delhi-Lucknow Night Mail 62109",
+   "category": "Sleeper",
+   "from": "Delhi",
+   "to": "Lucknow",
+   "departure": "22:00",
+   "durationMin": 390,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "T029",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Lucknow-Delhi Intercity 62102",
+   "category": "CC",
+   "from": "Lucknow",
+   "to": "Delhi",
+   "departure": "06:30",
+   "durationMin": 390,
+   "fare": 600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "T030",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Lucknow-Delhi Express 62106",
+   "category": "Sleeper / CC",
+   "from": "Lucknow",
+   "to": "Delhi",
+   "departure": "16:00",
+   "durationMin": 390,
+   "fare": 550,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "T031",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Lucknow-Delhi Night Mail 62110",
+   "category": "Sleeper",
+   "from": "Lucknow",
+   "to": "Delhi",
+   "departure": "22:30",
+   "durationMin": 390,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "T032",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Bengaluru-Pune Express 72011",
+   "category": "Sleeper / 3A",
+   "from": "Bengaluru",
+   "to": "Pune",
+   "departure": "07:30",
+   "durationMin": 1140,
+   "fare": 900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 992
+  },
+  {
+   "id": "T033",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Bengaluru-Hubballi Intercity 72101",
+   "category": "CC / Sleeper",
+   "from": "Bengaluru",
+   "to": "Hubballi",
+   "departure": "06:45",
+   "durationMin": 420,
+   "fare": 400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "T034",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Bengaluru-Hubballi Night Link 72105",
+   "category": "Sleeper",
+   "from": "Bengaluru",
+   "to": "Hubballi",
+   "departure": "22:00",
+   "durationMin": 420,
+   "fare": 380,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "T035",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Mumbai-Jaipur Superfast 93005",
+   "category": "3A / 2A",
+   "from": "Mumbai",
+   "to": "Jaipur",
+   "departure": "17:30",
+   "durationMin": 1080,
+   "fare": 1500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1242
+  },
+  {
+   "id": "T036",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Mumbai-Ahmedabad Intercity 93101",
+   "category": "CC",
+   "from": "Mumbai",
+   "to": "Ahmedabad",
+   "departure": "06:00",
+   "durationMin": 420,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 593
+  },
+  {
+   "id": "T037",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Mumbai-Ahmedabad Express 93105",
+   "category": "CC / Sleeper",
+   "from": "Mumbai",
+   "to": "Ahmedabad",
+   "departure": "14:00",
+   "durationMin": 420,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 593
+  },
+  {
+   "id": "T038",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Mumbai-Ahmedabad Night Link 93109",
+   "category": "3A / Sleeper",
+   "from": "Mumbai",
+   "to": "Ahmedabad",
+   "departure": "19:30",
+   "durationMin": 420,
+   "fare": 720,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 593
+  },
+  {
+   "id": "T039",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Hyderabad Express 72305",
+   "category": "Sleeper / 3A",
+   "from": "Pune",
+   "to": "Hyderabad",
+   "departure": "15:00",
+   "durationMin": 720,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 682
+  },
+  {
+   "id": "T040",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Hyderabad Night Link 72309",
+   "category": "Sleeper / 3A",
+   "from": "Pune",
+   "to": "Hyderabad",
+   "departure": "21:00",
+   "durationMin": 720,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 682
+  },
+  {
+   "id": "T041",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Solapur Intercity 72401",
+   "category": "CC",
+   "from": "Pune",
+   "to": "Solapur",
+   "departure": "06:00",
+   "durationMin": 240,
+   "fare": 250,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 319
+  },
+  {
+   "id": "T042",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Solapur Express 72405",
+   "category": "CC / Sleeper",
+   "from": "Pune",
+   "to": "Solapur",
+   "departure": "12:00",
+   "durationMin": 240,
+   "fare": 260,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 319
+  },
+  {
+   "id": "T043",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Pune-Solapur Evening Link 72409",
+   "category": "CC",
+   "from": "Pune",
+   "to": "Solapur",
+   "departure": "17:30",
+   "durationMin": 240,
+   "fare": 280,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 319
+  },
+  {
+   "id": "T044",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Delhi Superfast 82501",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Delhi",
+   "departure": "17:30",
+   "durationMin": 1080,
+   "fare": 1250,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1165
+  },
+  {
+   "id": "T045",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Delhi Night Mail 82505",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Delhi",
+   "departure": "21:00",
+   "durationMin": 1080,
+   "fare": 1180,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1165
+  },
+  {
+   "id": "T046",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Bhopal Intercity 82601",
+   "category": "CC",
+   "from": "Nagpur",
+   "to": "Bhopal",
+   "departure": "07:00",
+   "durationMin": 390,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 393
+  },
+  {
+   "id": "T047",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Bhopal Express 82605",
+   "category": "CC / Sleeper",
+   "from": "Nagpur",
+   "to": "Bhopal",
+   "departure": "15:00",
+   "durationMin": 390,
+   "fare": 420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 393
+  },
+  {
+   "id": "T048",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Nagpur-Bhopal Night Link 82609",
+   "category": "Sleeper",
+   "from": "Nagpur",
+   "to": "Bhopal",
+   "departure": "23:30",
+   "durationMin": 390,
+   "fare": 400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 393
+  },
+  {
+   "id": "T049",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Howrah-Prayagraj Express 83101",
+   "category": "Sleeper / 3A",
+   "from": "Kolkata",
+   "to": "Prayagraj",
+   "departure": "19:00",
+   "durationMin": 660,
+   "fare": 700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 990
+  },
+  {
+   "id": "T050",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Howrah-Prayagraj Night Link 83105",
+   "category": "Sleeper",
+   "from": "Kolkata",
+   "to": "Prayagraj",
+   "departure": "22:30",
+   "durationMin": 660,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 990
+  },
+  {
+   "id": "T051",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Prayagraj-Delhi Intercity 83201",
+   "category": "CC",
+   "from": "Prayagraj",
+   "to": "Delhi",
+   "departure": "06:00",
+   "durationMin": 480,
+   "fare": 600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 802
+  },
+  {
+   "id": "T052",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Prayagraj-Delhi Express 83205",
+   "category": "Sleeper / CC",
+   "from": "Prayagraj",
+   "to": "Delhi",
+   "departure": "14:00",
+   "durationMin": 480,
+   "fare": 550,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 802
+  },
+  {
+   "id": "T053",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Prayagraj-Delhi Night Mail 83209",
+   "category": "Sleeper",
+   "from": "Prayagraj",
+   "to": "Delhi",
+   "departure": "21:30",
+   "durationMin": 480,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 802
+  },
+  {
+   "id": "T054",
+   "mode": "TRAIN",
+   "operator": "Rail Connect",
+   "name": "Howrah-Lucknow Express 83301",
+   "category": "Sleeper / 3A",
+   "from": "Kolkata",
+   "to": "Lucknow",
+   "departure": "15:00",
+   "durationMin": 1200,
+   "fare": 900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1197
+  },
+  {
+   "id": "F001",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-221",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Prayagraj",
+   "departure": "11:30",
+   "durationMin": 125,
+   "fare": 5400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1007
+  },
+  {
+   "id": "F002",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-318",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Prayagraj",
+   "departure": "17:45",
+   "durationMin": 125,
+   "fare": 6100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1007
+  },
+  {
+   "id": "F003",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-105",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Delhi",
+   "departure": "07:00",
+   "durationMin": 120,
+   "fare": 5800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1237
+  },
+  {
+   "id": "F004",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-312",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Delhi",
+   "departure": "13:15",
+   "durationMin": 120,
+   "fare": 5300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1237
+  },
+  {
+   "id": "F005",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-540",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Delhi",
+   "departure": "19:40",
+   "durationMin": 120,
+   "fare": 6400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1237
+  },
+  {
+   "id": "F006",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-601",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Delhi",
+   "departure": "06:00",
+   "durationMin": 130,
+   "fare": 5200,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "F007",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-120",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Delhi",
+   "departure": "10:30",
+   "durationMin": 130,
+   "fare": 4900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "F008",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-233",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Delhi",
+   "departure": "15:00",
+   "durationMin": 130,
+   "fare": 5600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "F009",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-655",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Delhi",
+   "departure": "20:15",
+   "durationMin": 130,
+   "fare": 5400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "F010",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-410",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Kolkata",
+   "departure": "07:15",
+   "durationMin": 165,
+   "fare": 6200,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1736
+  },
+  {
+   "id": "F011",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-742",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Kolkata",
+   "departure": "14:50",
+   "durationMin": 165,
+   "fare": 6600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1736
+  },
+  {
+   "id": "F012",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-455",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Kolkata",
+   "departure": "21:00",
+   "durationMin": 165,
+   "fare": 5900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1736
+  },
+  {
+   "id": "F013",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-215",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Lucknow",
+   "departure": "09:10",
+   "durationMin": 135,
+   "fare": 5900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1135
+  },
+  {
+   "id": "F014",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-380",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Lucknow",
+   "departure": "18:30",
+   "durationMin": 135,
+   "fare": 6300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1135
+  },
+  {
+   "id": "F015",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-130",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Delhi",
+   "departure": "06:30",
+   "durationMin": 140,
+   "fare": 5000,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1328
+  },
+  {
+   "id": "F016",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-144",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Delhi",
+   "departure": "12:00",
+   "durationMin": 140,
+   "fare": 4700,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1328
+  },
+  {
+   "id": "F017",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-262",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Delhi",
+   "departure": "19:30",
+   "durationMin": 140,
+   "fare": 5300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1328
+  },
+  {
+   "id": "F018",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-701",
+   "category": "Economy",
+   "from": "Bengaluru",
+   "to": "Pune",
+   "departure": "06:20",
+   "durationMin": 90,
+   "fare": 4100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 771
+  },
+  {
+   "id": "F019",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-812",
+   "category": "Economy",
+   "from": "Bengaluru",
+   "to": "Pune",
+   "departure": "12:45",
+   "durationMin": 90,
+   "fare": 3800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 771
+  },
+  {
+   "id": "F020",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-905",
+   "category": "Economy",
+   "from": "Bengaluru",
+   "to": "Pune",
+   "departure": "21:10",
+   "durationMin": 90,
+   "fare": 4300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 771
+  },
+  {
+   "id": "F021",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-322",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Jaipur",
+   "departure": "08:00",
+   "durationMin": 110,
+   "fare": 4800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 966
+  },
+  {
+   "id": "F022",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-366",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Jaipur",
+   "departure": "16:30",
+   "durationMin": 110,
+   "fare": 5100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 966
+  },
+  {
+   "id": "F023",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-101",
+   "category": "Economy",
+   "from": "Nagpur",
+   "to": "Delhi",
+   "departure": "08:30",
+   "durationMin": 115,
+   "fare": 5600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 906
+  },
+  {
+   "id": "F024",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-204",
+   "category": "Economy",
+   "from": "Nagpur",
+   "to": "Delhi",
+   "departure": "18:10",
+   "durationMin": 115,
+   "fare": 5900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 906
+  },
+  {
+   "id": "F025",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-510",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Mumbai",
+   "departure": "07:45",
+   "durationMin": 85,
+   "fare": 4300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 652
+  },
+  {
+   "id": "F026",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-515",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Mumbai",
+   "departure": "13:30",
+   "durationMin": 85,
+   "fare": 3900,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 652
+  },
+  {
+   "id": "F027",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-620",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Mumbai",
+   "departure": "21:15",
+   "durationMin": 85,
+   "fare": 4600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 652
+  },
+  {
+   "id": "F028",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways",
+   "name": "AV-850",
+   "category": "Economy",
+   "from": "Kolkata",
+   "to": "Delhi",
+   "departure": "06:00",
+   "durationMin": 140,
+   "fare": 5500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1383
+  },
+  {
+   "id": "F029",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-860",
+   "category": "Economy",
+   "from": "Kolkata",
+   "to": "Delhi",
+   "departure": "11:45",
+   "durationMin": 140,
+   "fare": 5100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1383
+  },
+  {
+   "id": "F030",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-870",
+   "category": "Economy",
+   "from": "Kolkata",
+   "to": "Delhi",
+   "departure": "20:30",
+   "durationMin": 140,
+   "fare": 5800,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1383
+  },
+  {
+   "id": "F031",
+   "mode": "FLIGHT",
+   "operator": "BlueKite",
+   "name": "BK-930",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Hyderabad",
+   "departure": "08:15",
+   "durationMin": 75,
+   "fare": 4300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 530
+  },
+  {
+   "id": "F032",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air",
+   "name": "SA-940",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Hyderabad",
+   "departure": "17:00",
+   "durationMin": 75,
+   "fare": 4100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 530
+  },
+  {
+   "id": "RB001",
+   "mode": "BUS",
+   "operator": "Marathwada Link Return",
+   "name": "Return ML-201",
+   "category": "Seater AC",
+   "from": "Nagpur",
+   "to": "Nanded",
+   "departure": "15:30",
+   "durationMin": 390,
+   "fare": 680,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 389
+  },
+  {
+   "id": "RB002",
+   "mode": "BUS",
+   "operator": "Orange City Travels Return",
+   "name": "Return OC-118",
+   "category": "Sleeper AC",
+   "from": "Nagpur",
+   "to": "Nanded",
+   "departure": "19:00",
+   "durationMin": 390,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 389
+  },
+  {
+   "id": "RB003",
+   "mode": "BUS",
+   "operator": "Maha Express Return",
+   "name": "Return MX-305",
+   "category": "Semi-sleeper",
+   "from": "Nagpur",
+   "to": "Nanded",
+   "departure": "23:30",
+   "durationMin": 390,
+   "fare": 600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 389
+  },
+  {
+   "id": "RB004",
+   "mode": "BUS",
+   "operator": "Ganga Yamuna Coaches Return",
+   "name": "Return GY-410",
+   "category": "Sleeper AC",
+   "from": "Prayagraj",
+   "to": "Nagpur",
+   "departure": "07:00",
+   "durationMin": 720,
+   "fare": 1140,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 746
+  },
+  {
+   "id": "RB005",
+   "mode": "BUS",
+   "operator": "Orange City Travels Return",
+   "name": "Return OC-520",
+   "category": "Volvo Sleeper",
+   "from": "Prayagraj",
+   "to": "Nagpur",
+   "departure": "11:00",
+   "durationMin": 720,
+   "fare": 1300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 746
+  },
+  {
+   "id": "RB006",
+   "mode": "BUS",
+   "operator": "Telangana Star Return",
+   "name": "Return TS-77",
+   "category": "Seater AC",
+   "from": "Hyderabad",
+   "to": "Nanded",
+   "departure": "15:00",
+   "durationMin": 300,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 313
+  },
+  {
+   "id": "RB007",
+   "mode": "BUS",
+   "operator": "Maha Express Return",
+   "name": "Return MX-120",
+   "category": "Semi-sleeper",
+   "from": "Hyderabad",
+   "to": "Nanded",
+   "departure": "21:00",
+   "durationMin": 300,
+   "fare": 470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 313
+  },
+  {
+   "id": "RB008",
+   "mode": "BUS",
+   "operator": "Godavari Sleeper Return",
+   "name": "Return GS-909",
+   "category": "Sleeper AC",
+   "from": "Hyderabad",
+   "to": "Nanded",
+   "departure": "06:00",
+   "durationMin": 300,
+   "fare": 640,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 313
+  },
+  {
+   "id": "RB009",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways Return",
+   "name": "Return SR-64",
+   "category": "Sleeper AC",
+   "from": "Pune",
+   "to": "Nanded",
+   "departure": "07:00",
+   "durationMin": 540,
+   "fare": 830,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 500
+  },
+  {
+   "id": "RB010",
+   "mode": "BUS",
+   "operator": "Orange City Travels Return",
+   "name": "Return OC-244",
+   "category": "Volvo Sleeper",
+   "from": "Pune",
+   "to": "Nanded",
+   "departure": "09:30",
+   "durationMin": 540,
+   "fare": 940,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 500
+  },
+  {
+   "id": "RB011",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways Return",
+   "name": "Return SR-11",
+   "category": "Seater AC",
+   "from": "Mumbai",
+   "to": "Pune",
+   "departure": "13:00",
+   "durationMin": 210,
+   "fare": 420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "RB012",
+   "mode": "BUS",
+   "operator": "Maha Express Return",
+   "name": "Return MX-402",
+   "category": "Volvo AC",
+   "from": "Mumbai",
+   "to": "Pune",
+   "departure": "16:30",
+   "durationMin": 210,
+   "fare": 470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "RB013",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways Return",
+   "name": "Return SR-15",
+   "category": "Seater AC",
+   "from": "Mumbai",
+   "to": "Pune",
+   "departure": "22:00",
+   "durationMin": 210,
+   "fare": 440,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "RB014",
+   "mode": "BUS",
+   "operator": "Orange City Travels Return",
+   "name": "Return OC-90",
+   "category": "Volvo AC",
+   "from": "Mumbai",
+   "to": "Pune",
+   "departure": "01:30",
+   "durationMin": 210,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 162
+  },
+  {
+   "id": "RB015",
+   "mode": "BUS",
+   "operator": "Telangana Star Return",
+   "name": "Return TS-310",
+   "category": "Sleeper AC",
+   "from": "Nagpur",
+   "to": "Hyderabad",
+   "departure": "08:00",
+   "durationMin": 540,
+   "fare": 940,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "RB016",
+   "mode": "BUS",
+   "operator": "Godavari Sleeper Return",
+   "name": "Return GS-444",
+   "category": "Volvo Sleeper",
+   "from": "Nagpur",
+   "to": "Hyderabad",
+   "departure": "10:00",
+   "durationMin": 540,
+   "fare": 1040,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "RB017",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches Return",
+   "name": "Return DL-21",
+   "category": "Volvo AC",
+   "from": "Jaipur",
+   "to": "Delhi",
+   "departure": "15:00",
+   "durationMin": 300,
+   "fare": 470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 320
+  },
+  {
+   "id": "RB018",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches Return",
+   "name": "Return DL-35",
+   "category": "Volvo AC",
+   "from": "Jaipur",
+   "to": "Delhi",
+   "departure": "20:30",
+   "durationMin": 300,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 320
+  },
+  {
+   "id": "RB019",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches Return",
+   "name": "Return DL-48",
+   "category": "Sleeper AC",
+   "from": "Jaipur",
+   "to": "Delhi",
+   "departure": "02:00",
+   "durationMin": 300,
+   "fare": 570,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 320
+  },
+  {
+   "id": "RB020",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches Return",
+   "name": "Return DL-208",
+   "category": "Sleeper AC",
+   "from": "Jaipur",
+   "to": "Ahmedabad",
+   "departure": "09:30",
+   "durationMin": 660,
+   "fare": 940,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 729
+  },
+  {
+   "id": "RB021",
+   "mode": "BUS",
+   "operator": "Desert Line Coaches Return",
+   "name": "Return DL-215",
+   "category": "Volvo Sleeper",
+   "from": "Jaipur",
+   "to": "Ahmedabad",
+   "departure": "11:00",
+   "durationMin": 660,
+   "fare": 1040,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 729
+  },
+  {
+   "id": "RB022",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways Return",
+   "name": "Return SR-701",
+   "category": "Sleeper AC",
+   "from": "Pune",
+   "to": "Bengaluru",
+   "departure": "11:00",
+   "durationMin": 840,
+   "fare": 1350,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 992
+  },
+  {
+   "id": "RB023",
+   "mode": "BUS",
+   "operator": "Orange City Travels Return",
+   "name": "Return OC-777",
+   "category": "Volvo Sleeper",
+   "from": "Pune",
+   "to": "Bengaluru",
+   "departure": "12:30",
+   "durationMin": 840,
+   "fare": 1510,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 992
+  },
+  {
+   "id": "RB024",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways Return",
+   "name": "Return SR-330",
+   "category": "Semi-sleeper",
+   "from": "Pune",
+   "to": "Hubballi",
+   "departure": "08:00",
+   "durationMin": 480,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "RB025",
+   "mode": "BUS",
+   "operator": "Sahyadri Roadways Return",
+   "name": "Return SR-334",
+   "category": "Sleeper AC",
+   "from": "Pune",
+   "to": "Hubballi",
+   "departure": "09:30",
+   "durationMin": 480,
+   "fare": 780,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "RB026",
+   "mode": "BUS",
+   "operator": "Telangana Star Return",
+   "name": "Return TS-12",
+   "category": "Seater AC",
+   "from": "Hyderabad",
+   "to": "Solapur",
+   "departure": "16:00",
+   "durationMin": 300,
+   "fare": 470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 371
+  },
+  {
+   "id": "RB027",
+   "mode": "BUS",
+   "operator": "Telangana Star Return",
+   "name": "Return TS-18",
+   "category": "Seater AC",
+   "from": "Hyderabad",
+   "to": "Solapur",
+   "departure": "22:00",
+   "durationMin": 300,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 371
+  },
+  {
+   "id": "RB028",
+   "mode": "BUS",
+   "operator": "Godavari Sleeper Return",
+   "name": "Return GS-130",
+   "category": "Sleeper AC",
+   "from": "Hyderabad",
+   "to": "Solapur",
+   "departure": "04:00",
+   "durationMin": 300,
+   "fare": 540,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 371
+  },
+  {
+   "id": "RT001",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nanded-Prayagraj Weekend Special 91021",
+   "category": "Sleeper / 3A",
+   "from": "Prayagraj",
+   "to": "Nanded",
+   "departure": "17:30",
+   "durationMin": 1200,
+   "fare": 1400,
+   "days": [
+    "SAT",
+    "SUN"
+   ],
+   "distanceKm": 1131
+  },
+  {
+   "id": "RT002",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Manmad Passenger 51401",
+   "category": "2S / Sleeper",
+   "from": "Manmad",
+   "to": "Nanded",
+   "departure": "14:15",
+   "durationMin": 330,
+   "fare": 270,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 438
+  },
+  {
+   "id": "RT003",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Manmad Express 71402",
+   "category": "Sleeper / 3A",
+   "from": "Manmad",
+   "to": "Nanded",
+   "departure": "23:50",
+   "durationMin": 330,
+   "fare": 310,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 438
+  },
+  {
+   "id": "RT004",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Ganga Link Express 82011",
+   "category": "Sleeper / 3A",
+   "from": "Prayagraj",
+   "to": "Manmad",
+   "departure": "17:00",
+   "durationMin": 1020,
+   "fare": 880,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1286
+  },
+  {
+   "id": "RT005",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Ganga Link Passenger 82015",
+   "category": "Sleeper",
+   "from": "Prayagraj",
+   "to": "Manmad",
+   "departure": "00:30",
+   "durationMin": 1020,
+   "fare": 830,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1286
+  },
+  {
+   "id": "RT006",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Manmad-Mumbai Express 61201",
+   "category": "CC / 2S",
+   "from": "Mumbai",
+   "to": "Manmad",
+   "departure": "13:45",
+   "durationMin": 270,
+   "fare": 260,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 281
+  },
+  {
+   "id": "RT007",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Godavari Link 61207",
+   "category": "CC / Sleeper",
+   "from": "Mumbai",
+   "to": "Manmad",
+   "departure": "21:10",
+   "durationMin": 270,
+   "fare": 290,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 281
+  },
+  {
+   "id": "RT008",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Panchavati Link 61213",
+   "category": "CC",
+   "from": "Mumbai",
+   "to": "Manmad",
+   "departure": "00:30",
+   "durationMin": 270,
+   "fare": 310,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 281
+  },
+  {
+   "id": "RT009",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nanded-Mumbai Night Express 61105",
+   "category": "Sleeper / 3A",
+   "from": "Mumbai",
+   "to": "Nanded",
+   "departure": "10:00",
+   "durationMin": 660,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 629
+  },
+  {
+   "id": "RT010",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Delhi Duronto Link 73110",
+   "category": "3A / 2A",
+   "from": "Delhi",
+   "to": "Pune",
+   "departure": "17:00",
+   "durationMin": 1320,
+   "fare": 2390,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1591
+  },
+  {
+   "id": "RT011",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Bhopal Central Link 51207",
+   "category": "Sleeper / 3A",
+   "from": "Bhopal",
+   "to": "Pune",
+   "departure": "08:00",
+   "durationMin": 720,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 868
+  },
+  {
+   "id": "RT012",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Bhopal Night Link 51211",
+   "category": "Sleeper",
+   "from": "Bhopal",
+   "to": "Pune",
+   "departure": "13:30",
+   "durationMin": 720,
+   "fare": 680,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 868
+  },
+  {
+   "id": "RT013",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Bhopal-Delhi Intercity 62013",
+   "category": "CC",
+   "from": "Delhi",
+   "to": "Bhopal",
+   "departure": "19:00",
+   "durationMin": 480,
+   "fare": 680,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 817
+  },
+  {
+   "id": "RT014",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Bhopal-Delhi Express 62017",
+   "category": "Sleeper / 3A",
+   "from": "Delhi",
+   "to": "Bhopal",
+   "departure": "01:30",
+   "durationMin": 480,
+   "fare": 620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 817
+  },
+  {
+   "id": "RT015",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Bhopal-Delhi Night Mail 62021",
+   "category": "Sleeper",
+   "from": "Delhi",
+   "to": "Bhopal",
+   "departure": "10:00",
+   "durationMin": 480,
+   "fare": 570,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 817
+  },
+  {
+   "id": "RT016",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Mumbai-Howrah Mail 81003",
+   "category": "Sleeper / 3A / 2A",
+   "from": "Kolkata",
+   "to": "Mumbai",
+   "departure": "16:00",
+   "durationMin": 1860,
+   "fare": 2500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 2232
+  },
+  {
+   "id": "RT017",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Mumbai-Nagpur Express 81207",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Mumbai",
+   "departure": "11:00",
+   "durationMin": 840,
+   "fare": 830,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 928
+  },
+  {
+   "id": "RT018",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Vidarbha Link 81211",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Mumbai",
+   "departure": "14:30",
+   "durationMin": 840,
+   "fare": 880,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 928
+  },
+  {
+   "id": "RT019",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Howrah Express 81305",
+   "category": "Sleeper / 3A",
+   "from": "Kolkata",
+   "to": "Nagpur",
+   "departure": "07:00",
+   "durationMin": 1020,
+   "fare": 780,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1308
+  },
+  {
+   "id": "RT020",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Howrah Night Link 81309",
+   "category": "Sleeper",
+   "from": "Kolkata",
+   "to": "Nagpur",
+   "departure": "18:30",
+   "durationMin": 1020,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1308
+  },
+  {
+   "id": "RT021",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Hyderabad-Nagpur Express 71601",
+   "category": "CC / Sleeper",
+   "from": "Nagpur",
+   "to": "Hyderabad",
+   "departure": "17:00",
+   "durationMin": 480,
+   "fare": 470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "RT022",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Hyderabad-Nagpur Passenger 71605",
+   "category": "Sleeper",
+   "from": "Nagpur",
+   "to": "Hyderabad",
+   "departure": "01:30",
+   "durationMin": 480,
+   "fare": 440,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "RT023",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Hyderabad-Nagpur Night Link 71609",
+   "category": "Sleeper / 3A",
+   "from": "Nagpur",
+   "to": "Hyderabad",
+   "departure": "08:00",
+   "durationMin": 480,
+   "fare": 500,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 570
+  },
+  {
+   "id": "RT024",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Lucknow Express 82401",
+   "category": "Sleeper / 3A",
+   "from": "Lucknow",
+   "to": "Nagpur",
+   "departure": "12:15",
+   "durationMin": 960,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 892
+  },
+  {
+   "id": "RT025",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Lucknow Night Link 82405",
+   "category": "Sleeper / 3A",
+   "from": "Lucknow",
+   "to": "Nagpur",
+   "departure": "18:20",
+   "durationMin": 960,
+   "fare": 780,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 892
+  },
+  {
+   "id": "RT026",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Delhi-Lucknow Intercity 62101",
+   "category": "CC",
+   "from": "Lucknow",
+   "to": "Delhi",
+   "departure": "15:30",
+   "durationMin": 390,
+   "fare": 620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "RT027",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Delhi-Lucknow Express 62105",
+   "category": "Sleeper / CC",
+   "from": "Lucknow",
+   "to": "Delhi",
+   "departure": "01:00",
+   "durationMin": 390,
+   "fare": 570,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "RT028",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Delhi-Lucknow Night Mail 62109",
+   "category": "Sleeper",
+   "from": "Lucknow",
+   "to": "Delhi",
+   "departure": "07:30",
+   "durationMin": 390,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "RT029",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Lucknow-Delhi Intercity 62102",
+   "category": "CC",
+   "from": "Delhi",
+   "to": "Lucknow",
+   "departure": "16:00",
+   "durationMin": 390,
+   "fare": 620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "RT030",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Lucknow-Delhi Express 62106",
+   "category": "Sleeper / CC",
+   "from": "Delhi",
+   "to": "Lucknow",
+   "departure": "01:30",
+   "durationMin": 390,
+   "fare": 570,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "RT031",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Lucknow-Delhi Night Mail 62110",
+   "category": "Sleeper",
+   "from": "Delhi",
+   "to": "Lucknow",
+   "departure": "08:00",
+   "durationMin": 390,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 581
+  },
+  {
+   "id": "RT032",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Bengaluru-Pune Express 72011",
+   "category": "Sleeper / 3A",
+   "from": "Pune",
+   "to": "Bengaluru",
+   "departure": "05:30",
+   "durationMin": 1140,
+   "fare": 940,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 992
+  },
+  {
+   "id": "RT033",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Bengaluru-Hubballi Intercity 72101",
+   "category": "CC / Sleeper",
+   "from": "Hubballi",
+   "to": "Bengaluru",
+   "departure": "16:45",
+   "durationMin": 420,
+   "fare": 420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "RT034",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Bengaluru-Hubballi Night Link 72105",
+   "category": "Sleeper",
+   "from": "Hubballi",
+   "to": "Bengaluru",
+   "departure": "08:00",
+   "durationMin": 420,
+   "fare": 400,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 507
+  },
+  {
+   "id": "RT035",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Mumbai-Jaipur Superfast 93005",
+   "category": "3A / 2A",
+   "from": "Jaipur",
+   "to": "Mumbai",
+   "departure": "14:30",
+   "durationMin": 1080,
+   "fare": 1560,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1242
+  },
+  {
+   "id": "RT036",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Mumbai-Ahmedabad Intercity 93101",
+   "category": "CC",
+   "from": "Ahmedabad",
+   "to": "Mumbai",
+   "departure": "16:00",
+   "durationMin": 420,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 593
+  },
+  {
+   "id": "RT037",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Mumbai-Ahmedabad Express 93105",
+   "category": "CC / Sleeper",
+   "from": "Ahmedabad",
+   "to": "Mumbai",
+   "departure": "00:00",
+   "durationMin": 420,
+   "fare": 680,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 593
+  },
+  {
+   "id": "RT038",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Mumbai-Ahmedabad Night Link 93109",
+   "category": "3A / Sleeper",
+   "from": "Ahmedabad",
+   "to": "Mumbai",
+   "departure": "05:30",
+   "durationMin": 420,
+   "fare": 750,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 593
+  },
+  {
+   "id": "RT039",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Hyderabad Express 72305",
+   "category": "Sleeper / 3A",
+   "from": "Hyderabad",
+   "to": "Pune",
+   "departure": "06:00",
+   "durationMin": 720,
+   "fare": 680,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 682
+  },
+  {
+   "id": "RT040",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Hyderabad Night Link 72309",
+   "category": "Sleeper / 3A",
+   "from": "Hyderabad",
+   "to": "Pune",
+   "departure": "12:00",
+   "durationMin": 720,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 682
+  },
+  {
+   "id": "RT041",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Solapur Intercity 72401",
+   "category": "CC",
+   "from": "Solapur",
+   "to": "Pune",
+   "departure": "13:00",
+   "durationMin": 240,
+   "fare": 260,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 319
+  },
+  {
+   "id": "RT042",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Solapur Express 72405",
+   "category": "CC / Sleeper",
+   "from": "Solapur",
+   "to": "Pune",
+   "departure": "19:00",
+   "durationMin": 240,
+   "fare": 270,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 319
+  },
+  {
+   "id": "RT043",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Pune-Solapur Evening Link 72409",
+   "category": "CC",
+   "from": "Solapur",
+   "to": "Pune",
+   "departure": "00:30",
+   "durationMin": 240,
+   "fare": 290,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 319
+  },
+  {
+   "id": "RT044",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Delhi Superfast 82501",
+   "category": "Sleeper / 3A",
+   "from": "Delhi",
+   "to": "Nagpur",
+   "departure": "14:30",
+   "durationMin": 1080,
+   "fare": 1300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1165
+  },
+  {
+   "id": "RT045",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Delhi Night Mail 82505",
+   "category": "Sleeper / 3A",
+   "from": "Delhi",
+   "to": "Nagpur",
+   "departure": "18:00",
+   "durationMin": 1080,
+   "fare": 1230,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1165
+  },
+  {
+   "id": "RT046",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Bhopal Intercity 82601",
+   "category": "CC",
+   "from": "Bhopal",
+   "to": "Nagpur",
+   "departure": "16:30",
+   "durationMin": 390,
+   "fare": 470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 393
+  },
+  {
+   "id": "RT047",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Bhopal Express 82605",
+   "category": "CC / Sleeper",
+   "from": "Bhopal",
+   "to": "Nagpur",
+   "departure": "00:30",
+   "durationMin": 390,
+   "fare": 440,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 393
+  },
+  {
+   "id": "RT048",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Nagpur-Bhopal Night Link 82609",
+   "category": "Sleeper",
+   "from": "Bhopal",
+   "to": "Nagpur",
+   "departure": "09:00",
+   "durationMin": 390,
+   "fare": 420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 393
+  },
+  {
+   "id": "RT049",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Howrah-Prayagraj Express 83101",
+   "category": "Sleeper / 3A",
+   "from": "Prayagraj",
+   "to": "Kolkata",
+   "departure": "09:00",
+   "durationMin": 660,
+   "fare": 730,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 990
+  },
+  {
+   "id": "RT050",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Howrah-Prayagraj Night Link 83105",
+   "category": "Sleeper",
+   "from": "Prayagraj",
+   "to": "Kolkata",
+   "departure": "12:30",
+   "durationMin": 660,
+   "fare": 680,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 990
+  },
+  {
+   "id": "RT051",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Prayagraj-Delhi Intercity 83201",
+   "category": "CC",
+   "from": "Delhi",
+   "to": "Prayagraj",
+   "departure": "17:00",
+   "durationMin": 480,
+   "fare": 620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 802
+  },
+  {
+   "id": "RT052",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Prayagraj-Delhi Express 83205",
+   "category": "Sleeper / CC",
+   "from": "Delhi",
+   "to": "Prayagraj",
+   "departure": "01:00",
+   "durationMin": 480,
+   "fare": 570,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 802
+  },
+  {
+   "id": "RT053",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Prayagraj-Delhi Night Mail 83209",
+   "category": "Sleeper",
+   "from": "Delhi",
+   "to": "Prayagraj",
+   "departure": "08:30",
+   "durationMin": 480,
+   "fare": 540,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 802
+  },
+  {
+   "id": "RT054",
+   "mode": "TRAIN",
+   "operator": "Rail Connect Return",
+   "name": "Return Howrah-Lucknow Express 83301",
+   "category": "Sleeper / 3A",
+   "from": "Lucknow",
+   "to": "Kolkata",
+   "departure": "14:00",
+   "durationMin": 1200,
+   "fare": 940,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1197
+  },
+  {
+   "id": "RF001",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-221",
+   "category": "Economy",
+   "from": "Prayagraj",
+   "to": "Hyderabad",
+   "departure": "16:35",
+   "durationMin": 125,
+   "fare": 5620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1007
+  },
+  {
+   "id": "RF002",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-318",
+   "category": "Economy",
+   "from": "Prayagraj",
+   "to": "Hyderabad",
+   "departure": "22:50",
+   "durationMin": 125,
+   "fare": 6340,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1007
+  },
+  {
+   "id": "RF003",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-105",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Pune",
+   "departure": "12:00",
+   "durationMin": 120,
+   "fare": 6030,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1237
+  },
+  {
+   "id": "RF004",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-312",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Pune",
+   "departure": "18:15",
+   "durationMin": 120,
+   "fare": 5510,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1237
+  },
+  {
+   "id": "RF005",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-540",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Pune",
+   "departure": "00:40",
+   "durationMin": 120,
+   "fare": 6660,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1237
+  },
+  {
+   "id": "RF006",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-601",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Mumbai",
+   "departure": "11:10",
+   "durationMin": 130,
+   "fare": 5410,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "RF007",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-120",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Mumbai",
+   "departure": "15:40",
+   "durationMin": 130,
+   "fare": 5100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "RF008",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-233",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Mumbai",
+   "departure": "20:10",
+   "durationMin": 130,
+   "fare": 5820,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "RF009",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-655",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Mumbai",
+   "departure": "01:25",
+   "durationMin": 130,
+   "fare": 5620,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1209
+  },
+  {
+   "id": "RF010",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-410",
+   "category": "Economy",
+   "from": "Kolkata",
+   "to": "Mumbai",
+   "departure": "13:00",
+   "durationMin": 165,
+   "fare": 6450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1736
+  },
+  {
+   "id": "RF011",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-742",
+   "category": "Economy",
+   "from": "Kolkata",
+   "to": "Mumbai",
+   "departure": "20:35",
+   "durationMin": 165,
+   "fare": 6860,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1736
+  },
+  {
+   "id": "RF012",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-455",
+   "category": "Economy",
+   "from": "Kolkata",
+   "to": "Mumbai",
+   "departure": "02:45",
+   "durationMin": 165,
+   "fare": 6140,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1736
+  },
+  {
+   "id": "RF013",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-215",
+   "category": "Economy",
+   "from": "Lucknow",
+   "to": "Hyderabad",
+   "departure": "14:25",
+   "durationMin": 135,
+   "fare": 6140,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1135
+  },
+  {
+   "id": "RF014",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-380",
+   "category": "Economy",
+   "from": "Lucknow",
+   "to": "Hyderabad",
+   "departure": "23:45",
+   "durationMin": 135,
+   "fare": 6550,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1135
+  },
+  {
+   "id": "RF015",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-130",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Hyderabad",
+   "departure": "11:50",
+   "durationMin": 140,
+   "fare": 5200,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1328
+  },
+  {
+   "id": "RF016",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-144",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Hyderabad",
+   "departure": "17:20",
+   "durationMin": 140,
+   "fare": 4890,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1328
+  },
+  {
+   "id": "RF017",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-262",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Hyderabad",
+   "departure": "00:50",
+   "durationMin": 140,
+   "fare": 5510,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1328
+  },
+  {
+   "id": "RF018",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-701",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Bengaluru",
+   "departure": "10:50",
+   "durationMin": 90,
+   "fare": 4260,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 771
+  },
+  {
+   "id": "RF019",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-812",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Bengaluru",
+   "departure": "17:15",
+   "durationMin": 90,
+   "fare": 3950,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 771
+  },
+  {
+   "id": "RF020",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-905",
+   "category": "Economy",
+   "from": "Pune",
+   "to": "Bengaluru",
+   "departure": "01:40",
+   "durationMin": 90,
+   "fare": 4470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 771
+  },
+  {
+   "id": "RF021",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-322",
+   "category": "Economy",
+   "from": "Jaipur",
+   "to": "Mumbai",
+   "departure": "12:50",
+   "durationMin": 110,
+   "fare": 4990,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 966
+  },
+  {
+   "id": "RF022",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-366",
+   "category": "Economy",
+   "from": "Jaipur",
+   "to": "Mumbai",
+   "departure": "21:20",
+   "durationMin": 110,
+   "fare": 5300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 966
+  },
+  {
+   "id": "RF023",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-101",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Nagpur",
+   "departure": "13:25",
+   "durationMin": 115,
+   "fare": 5820,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 906
+  },
+  {
+   "id": "RF024",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-204",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Nagpur",
+   "departure": "23:05",
+   "durationMin": 115,
+   "fare": 6140,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 906
+  },
+  {
+   "id": "RF025",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-510",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Hyderabad",
+   "departure": "12:10",
+   "durationMin": 85,
+   "fare": 4470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 652
+  },
+  {
+   "id": "RF026",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-515",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Hyderabad",
+   "departure": "17:55",
+   "durationMin": 85,
+   "fare": 4060,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 652
+  },
+  {
+   "id": "RF027",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-620",
+   "category": "Economy",
+   "from": "Mumbai",
+   "to": "Hyderabad",
+   "departure": "01:40",
+   "durationMin": 85,
+   "fare": 4780,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 652
+  },
+  {
+   "id": "RF028",
+   "mode": "FLIGHT",
+   "operator": "Aarav Airways Return",
+   "name": "Return AV-850",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Kolkata",
+   "departure": "11:20",
+   "durationMin": 140,
+   "fare": 5720,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1383
+  },
+  {
+   "id": "RF029",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-860",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Kolkata",
+   "departure": "17:05",
+   "durationMin": 140,
+   "fare": 5300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1383
+  },
+  {
+   "id": "RF030",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-870",
+   "category": "Economy",
+   "from": "Delhi",
+   "to": "Kolkata",
+   "departure": "01:50",
+   "durationMin": 140,
+   "fare": 6030,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1383
+  },
+  {
+   "id": "RF031",
+   "mode": "FLIGHT",
+   "operator": "BlueKite Return",
+   "name": "Return BK-930",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Pune",
+   "departure": "12:30",
+   "durationMin": 75,
+   "fare": 4470,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 530
+  },
+  {
+   "id": "RF032",
+   "mode": "FLIGHT",
+   "operator": "Skyline Air Return",
+   "name": "Return SA-940",
+   "category": "Economy",
+   "from": "Hyderabad",
+   "to": "Pune",
+   "departure": "21:15",
+   "durationMin": 75,
+   "fare": 4260,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 530
+  },
+  {
+   "id": "AX001",
+   "mode": "TRAIN",
+   "operator": "Deccan Link Rail",
+   "name": "Prayagraj-Aurangabad Express 94011",
+   "category": "Sleeper / 3A",
+   "from": "Prayagraj",
+   "to": "Aurangabad",
+   "departure": "18:00",
+   "durationMin": 900,
+   "fare": 980,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 300
+  },
+  {
+   "id": "AX002",
+   "mode": "BUS",
+   "operator": "Marathwada Link",
+   "name": "Aurangabad-Nanded AC 521",
+   "category": "Sleeper AC",
+   "from": "Aurangabad",
+   "to": "Nanded",
+   "departure": "12:00",
+   "durationMin": 330,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 300
+  },
+  {
+   "id": "AX003",
+   "mode": "TRAIN",
+   "operator": "Deccan Link Rail",
+   "name": "Nanded-Aurangabad Passenger 94012",
+   "category": "Sleeper",
+   "from": "Nanded",
+   "to": "Aurangabad",
+   "departure": "06:00",
+   "durationMin": 330,
+   "fare": 300,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 300
+  },
+  {
+   "id": "AX004",
+   "mode": "TRAIN",
+   "operator": "Deccan Link Rail",
+   "name": "Aurangabad-Prayagraj Express 94013",
+   "category": "Sleeper / 3A",
+   "from": "Aurangabad",
+   "to": "Prayagraj",
+   "departure": "14:00",
+   "durationMin": 780,
+   "fare": 920,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 300
+  },
+  {
+   "id": "AX005",
+   "mode": "TRAIN",
+   "operator": "Ganga Deccan Rail",
+   "name": "Prayagraj-Nanded Direct 94015",
+   "category": "Sleeper / 3A",
+   "from": "Prayagraj",
+   "to": "Nanded",
+   "departure": "20:15",
+   "durationMin": 1200,
+   "fare": 1420,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1131
+  },
+  {
+   "id": "AX006",
+   "mode": "TRAIN",
+   "operator": "Ganga Deccan Rail",
+   "name": "Nanded-Prayagraj Direct 94016",
+   "category": "Sleeper / 3A",
+   "from": "Nanded",
+   "to": "Prayagraj",
+   "departure": "19:30",
+   "durationMin": 1200,
+   "fare": 1390,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 1131
+  },
+  {
+   "id": "AX007",
+   "mode": "BUS",
+   "operator": "Godavari Travels",
+   "name": "Aurangabad-Nanded Night Bus 522",
+   "category": "Seater AC",
+   "from": "Aurangabad",
+   "to": "Nanded",
+   "departure": "20:30",
+   "durationMin": 360,
+   "fare": 460,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 300
+  },
+  {
+   "id": "AX008",
+   "mode": "BUS",
+   "operator": "Ganga Roadways",
+   "name": "Prayagraj-Aurangabad Sleeper 811",
+   "category": "Sleeper AC",
+   "from": "Prayagraj",
+   "to": "Aurangabad",
+   "departure": "21:30",
+   "durationMin": 930,
+   "fare": 1100,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 300
+  },
+  {
+   "id": "T_MMR_NGP_1",
+   "mode": "TRAIN",
+   "operator": "Central Railway",
+   "name": "Sevagram Express 12139",
+   "category": "Superfast Express",
+   "from": "Manmad",
+   "to": "Nagpur",
+   "departure": "06:30",
+   "durationMin": 360,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 480
+  },
+  {
+   "id": "T_MMR_NGP_2",
+   "mode": "TRAIN",
+   "operator": "Central Railway",
+   "name": "Vidarbha Express 12105",
+   "category": "Superfast Express",
+   "from": "Manmad",
+   "to": "Nagpur",
+   "departure": "14:15",
+   "durationMin": 350,
+   "fare": 480,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 480
+  },
+  {
+   "id": "T_NGP_MMR_1",
+   "mode": "TRAIN",
+   "operator": "Central Railway",
+   "name": "Return Sevagram Express 12140",
+   "category": "Superfast Express",
+   "from": "Nagpur",
+   "to": "Manmad",
+   "departure": "07:00",
+   "durationMin": 360,
+   "fare": 450,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 480
+  },
+  {
+   "id": "T_NGP_PRY_1",
+   "mode": "TRAIN",
+   "operator": "North Central Railway",
+   "name": "Ganga Kaveri Express 12669",
+   "category": "Superfast Express",
+   "from": "Nagpur",
+   "to": "Prayagraj",
+   "departure": "13:30",
+   "durationMin": 580,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 720
+  },
+  {
+   "id": "T_NGP_PRY_2",
+   "mode": "TRAIN",
+   "operator": "North Central Railway",
+   "name": "Sanghamitra Express 12295",
+   "category": "Superfast Express",
+   "from": "Nagpur",
+   "to": "Prayagraj",
+   "departure": "21:00",
+   "durationMin": 570,
+   "fare": 720,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 720
+  },
+  {
+   "id": "T_PRY_NGP_1",
+   "mode": "TRAIN",
+   "operator": "North Central Railway",
+   "name": "Return Ganga Kaveri Express 12670",
+   "category": "Superfast Express",
+   "from": "Prayagraj",
+   "to": "Nagpur",
+   "departure": "08:15",
+   "durationMin": 580,
+   "fare": 650,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 720
+  },
+  {
+   "id": "T_MMR_BPL_1",
+   "mode": "TRAIN",
+   "operator": "West Central Railway",
+   "name": "Bhopal Intercity 14801",
+   "category": "Express",
+   "from": "Manmad",
+   "to": "Bhopal",
+   "departure": "08:30",
+   "durationMin": 390,
+   "fare": 520,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 490
+  },
+  {
+   "id": "T_BPL_PRY_1",
+   "mode": "TRAIN",
+   "operator": "North Central Railway",
+   "name": "Kamayani Express 11071",
+   "category": "Express",
+   "from": "Bhopal",
+   "to": "Prayagraj",
+   "departure": "15:45",
+   "durationMin": 480,
+   "fare": 590,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 560
+  },
+  {
+   "id": "F_NGP_PRY_1",
+   "mode": "FLIGHT",
+   "operator": "IndiGo",
+   "name": "6E-782",
+   "category": "Economy",
+   "from": "Nagpur",
+   "to": "Prayagraj",
+   "departure": "15:00",
+   "durationMin": 105,
+   "fare": 3600,
+   "days": [
+    "ALL"
+   ],
+   "distanceKm": 540
+  }
+ ],
+ "coordinates": {
+  "Ahmedabad": [
+   23.02,
+   72.57
+  ],
+  "Bengaluru": [
+   12.97,
+   77.59
+  ],
+  "Bhopal": [
+   23.26,
+   77.41
+  ],
+  "Delhi": [
+   28.7,
+   77.1
+  ],
+  "Hubballi": [
+   15.36,
+   75.12
+  ],
+  "Hyderabad": [
+   17.39,
+   78.49
+  ],
+  "Jaipur": [
+   26.91,
+   75.79
+  ],
+  "Kolkata": [
+   22.57,
+   88.36
+  ],
+  "Lucknow": [
+   26.85,
+   80.95
+  ],
+  "Manmad": [
+   20.25,
+   74.44
+  ],
+  "Mumbai": [
+   19.08,
+   72.88
+  ],
+  "Nagpur": [
+   21.15,
+   79.09
+  ],
+  "Nanded": [
+   19.16,
+   77.32
+  ],
+  "Prayagraj": [
+   25.43,
+   81.85
+  ],
+  "Pune": [
+   18.52,
+   73.86
+  ],
+  "Solapur": [
+   17.66,
+   75.91
+  ]
+ }
+}
